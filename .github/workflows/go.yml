@@ -30,6 +30,6 @@ jobs:
     - name: Nexus Vulnerability Scanner
       uses: sonatype/nvs-github-action@releases/v1.0.0
       with:
-        email: ${{ secrets.NVS_SCANNER_EMAIL }}
-        password: ${{ secrets.NVS_SCANNER_PASSWORD }}
+        email: ihighend@gmail.com
+        password: admin123
         directory: ./
